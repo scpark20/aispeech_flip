@@ -24,6 +24,22 @@ def text_to_tokens(text):
                 
     return np.array(tokens)
 
+def delete_tokens(tokens):
+    prev_token = None
+    new_tokens = []
+    for token in tokens:
+        if prev_token == token:
+            continue
+        
+        if token == 0:
+            prev_token = token
+            continue
+            
+        new_tokens.append(token)
+        prev_token = token
+        
+    return np.array(new_tokens)
+
 def tokens_to_text(tokens):
     def token_to_char(token):
         try:
