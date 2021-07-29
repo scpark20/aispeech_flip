@@ -41,7 +41,7 @@ class KSponSpeechDataset(torch.utils.data.Dataset):
             l = f.read()
             l = refine_ksponspeech(l)
             array = text_to_tokens(l)
-        array = np.pad(array, (1, 1), 'constant', constant_values=(0, 0))
+        #array = np.pad(array, (1, 1), 'constant', constant_values=(0, 0))
         return array
         
     def __getitem__(self, index):
