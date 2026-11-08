@@ -39,3 +39,14 @@ Training expects a local **KsponSpeech** dataset and a CUDA GPU. Dataset files a
 - [utils.py](asr/utils.py) provides training logs and checkpoint handling.
 
 The notebooks retain their original code and saved outputs. Their metadata records Python 3.8.8; dependency versions are not pinned. The README figure is a saved output, not a newly trained result.
+
+<details>
+<summary>Full project notes</summary>
+
+<!-- preserved-project-notes:start -->
+# aispeech_flip
+aispeech 풀잎스쿨 예제
+
+<!-- preserved-project-notes:end -->
+
+</details>
