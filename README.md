@@ -1,4 +1,4 @@
-# AI Speech — Puliip School
+# AI Speech — Flip School
 
 Speech-processing and recognition notebooks for **aispeech 풀잎스쿨**. Explore audio features, Korean text tokenization, and three speech-recognition approaches: CTC, attention-based LAS, and RNN Transducer.
 
